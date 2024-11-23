@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Recursos de Diseño Web</title>
+        <link>https://www.recursosdiseñoweb.com</link>
+        <description>El mejor lugar para encontrar consejos y herramientas sobre diseño web.</description>
+        <language>es-es</language>
+        <lastBuildDate>Fri, 22 Nov 2024 17:00:00 +0100</lastBuildDate>
+
+        <item>
+            <title>Cómo usar Flexbox para maquetar páginas modernas</title>
+            <link>https://css-tricks.com/snippets/css/a-guide-to-flexbox/</link>
+            <description>Una guía completa sobre Flexbox, con ejemplos prácticos.</description>
+            <pubDate>Fri, 22 Nov 2024 17:30:00 +0100</pubDate>
+            <guid isPermaLink="false">https://css-tricks.com/snippets/css/a-guide-to-flexbox/</guid>
+        </item>
+        
+        <item>
+            <title>Fuentes gratuitas para mejorar tus diseños</title>
+            <link>https://www.dafont.com/</link>
+            <description>Explora una amplia variedad de fuentes gratuitas para tus proyectos.</description>
+            <pubDate>Fri, 22 Nov 2024 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">https://www.dafont.com/</guid>
+        </item>
+        
+        <item>
+            <title>Guía para principiantes en Sass</title>
+            <link>https://sass-lang.com/guide</link>
+            <description>Documentación oficial para aprender Sass desde cero.</description>
+            <pubDate>Fri, 22 Nov 2024 18:10:00 +0100</pubDate>
+            <guid isPermaLink="false">https://sass-lang.com/guide</guid>
+        </item>
+        
+        <item>
+            <title>Optimiza tus imágenes para una carga más rápida</title>
+            <link>https://web.dev/optimize-images/</link>
+            <description>Consejos sobre cómo reducir el tamaño de las imágenes sin perder calidad.</description>
+            <pubDate>Sat, 23 Nov 2024 10:00:00 +0100</pubDate>
+            <guid isPermaLink="false">https://web.dev/optimize-images/</guid>
+        </item>
+        
+        <item>
+            <title>Principios del diseño web responsivo</title>
+            <link>https://developer.mozilla.org/es/docs/Learn/CSS/CSS_layout/Responsive_Design</link>
+            <description>Aprende a crear sitios web que se adapten a cualquier dispositivo.</description>
+            <pubDate>Sat, 23 Nov 2024 12:00:00 +0100</pubDate>
+            <guid isPermaLink="false">https://developer.mozilla.org/es/docs/Learn/CSS/CSS_layout/Responsive_Design</guid>
+        </item>
+    </channel>
+</rss>
