@@ -1,54 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    margin: 0;
-    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 header {
-    background: #333;
-    color: #fff;
+    background-color: #007bff;
+    color: white;
     padding: 1rem 0;
 }
 
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
 header h1 {
-    text-align: center;
-    margin: 0;
+    font-size: 2rem;
 }
 
-nav ul {
+header nav ul {
     list-style: none;
-    text-align: center;
-    padding: 0;
+    display: flex;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 15px;
+header nav ul li {
+    margin: 0 1rem;
 }
 
-nav ul li a {
-    color: #fff;
+header nav ul li a {
+    color: white;
     text-decoration: none;
+    font-size: 1rem;
 }
 
-.intro, .articulos, .contacto {
-    padding: 20px;
-}
-
-h2 {
-    text-align: center;
-}
-
-article {
-    margin: 20px 0;
-}
-
-article h3 a {
-    color: #007acc;
-    text-decoration: none;
-}
-
-article h3 a:hover {
+header nav ul li a:hover {
     text-decoration: underline;
 }
+
+main {
+    padding: 2rem 0;
+}
+
+.intro {
+    text-align: center;
+    padding: 3rem 1rem;
+    background-color: #ffffff;
+    margin-bottom: 2rem;
+}
+
+.intro h2 {
+    font-size: 2.5rem;
+    color: #007bff;
+}
+
+.intro p {
+    font-size: 1.2rem;
+}
+
+.articulos {
+    background-color: #fff;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+}
+
+.articulos h2 {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+}
+
+#feed-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-around;
+}
+
+.feed-item {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.feed-item h3 {
+    color: #007bff;
+}
+
+.feed-item p {
+    color: #555;
+    font-size: 1rem;
+}
+
+.feed-item a {
+    display: block;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.feed-item a:hover {
+    text-decoration: underline;
+}
+
+.contacto {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #007bff;
+    color: white;
+}
+
+.contacto p {
+    font-size: 1.2rem;
+}
+
+.contacto a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contacto a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul {
+        flex-direction: column;
+    }
+
+    .feed-item {
+        width: 100%;
+    }
+}
+
